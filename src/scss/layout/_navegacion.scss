@@ -8,9 +8,19 @@
 }
 
 .navegacion{
+    // sobrescribe el display block
+    @include tablet{
+        display: flex;
+
+    }
     a{
         color: $blanco;
         text-decoration: none;
         font-size:  2.2rem;
+        display: block;
+        text-align: center;
+        @include tablet{
+            margin-right: 2rem;
+        }
     }
 }
