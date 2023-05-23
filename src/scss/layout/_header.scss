@@ -9,6 +9,11 @@
         @include tablet {
             min-height: 50rem;
         }
+        .contenedor-header {
+            @include tablet {
+                min-height: 50rem;
+            }
+        }
     }
 }
 .no-webp .inicio {
@@ -23,9 +28,6 @@
     flex-direction: column;
     justify-content: space-between;
 
-    @include tablet {
-        min-height: 50rem;
-    }
     h1 {
         text-align: left;
         color: $blanco;
