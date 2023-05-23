@@ -18,3 +18,19 @@
     background-image: url(../img/header.webp);
 }
 
+.contenedor-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include tablet {
+        min-height: 50rem;
+    }
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        max-width: 60rem;
+    }
+
+}
