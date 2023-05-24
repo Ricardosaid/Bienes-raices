@@ -1,3 +1,9 @@
+
+.iconos-nosotros {
+    @include grid(3,2rem);
+}
+
+
 .icono {
     text-align: center;
     img {
